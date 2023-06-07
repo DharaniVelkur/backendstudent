@@ -123,6 +123,6 @@ app.delete('/deleteAll/:batch',(req,res)=>{
 
 
 
-app.listen(process.env.port, () => {
-  console.log("Server listening on port", process.env.port);
+app.listen(process.env.PORT, () => {
+  console.log("Server listening on port", process.env.PORT);
 });
